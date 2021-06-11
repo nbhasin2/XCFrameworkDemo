@@ -1,0 +1,11 @@
+framework module RandomColorGenerator {
+  umbrella header "RandomColorGenerator.h"
+
+  export *
+  module * { export * }
+}
+
+module RandomColorGenerator.Swift {
+    header "RandomColorGenerator-Swift.h"
+    requires objc
+}
